@@ -44,7 +44,7 @@ count (*), count (foglalkozas), count(distinct foglalkozas) FROM dolgozo;
 SELECT count (*) from dolgozo where fizetes > 2000;
 ````
 
--     Adjuk meg osztályonként a telephelyet és az átlagfizetést (oazon, telephely, atl_fiz).
+-   Adjuk meg osztályonként a telephelyet és az átlagfizetést (oazon, telephely, atl_fiz).
 ````SQL
 SELECT oazon, telephely, AVG(fizetes) FROM dolgozo NATURAL JOIN osztaly GROUP BY oazon, telephely;
 ````
