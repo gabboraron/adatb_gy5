@@ -1,7 +1,5 @@
 # GY5
 
-# GY5
-
 Aktuális feladat: 
 http://vopraai.web.elte.hu/tananyag/adatb1819/5.ora/feladat.txt
 
